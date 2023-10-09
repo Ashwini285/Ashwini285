@@ -1,0 +1,1821 @@
+
+.login-register,
+.login-register * {
+  box-sizing: border-box;
+}
+.login-register {
+  background: var(--neutral-100, #f5f5f5);
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-81 {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 900px;
+  height: 564px;
+  position: absolute;
+  left: 270px;
+  top: 230px;
+  overflow: hidden;
+}
+.rectangle-38 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  width: 450px;
+  height: 564px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-87 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 490px;
+  top: 40px;
+}
+.form-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-title2 {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: relative;
+}
+.sed-tortor-sed-velit-ridiculus-ipsum-pharetra-lacus-odio-gravida-augue-enim {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-83 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 370px;
+  position: relative;
+}
+.label-title {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-28 {
+  background: var(--white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.placeholder-content {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 16px "Poppins", sans-serif;
+  position: relative;
+}
+.forgot-password {
+  color: var(--neutral-600, #525252);
+  text-align: left;
+  font: 600 14px "Poppins", sans-serif;
+  position: relative;
+}
+.button {
+  background: var(--blue-600, #2563eb);
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-title {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-86 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-85 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 370px;
+  position: relative;
+}
+.line-1 {
+  border-style: solid;
+  border-color: var(--neutral-200, #e5e5e5);
+  border-width: 1px 0 0 0;
+  flex: 1;
+  height: 0px;
+  position: relative;
+}
+.frame-84 {
+  background: var(--white, #ffffff);
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.or {
+  color: var(--neutral-400, #a3a3a3);
+  text-align: left;
+  font: 300 12px "Poppins", sans-serif;
+  position: relative;
+}
+.line-2 {
+  border-style: solid;
+  border-color: var(--neutral-200, #e5e5e5);
+  border-width: 1px 0 0 0;
+  flex: 1;
+  height: 0px;
+  position: relative;
+}
+.button2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-600, #525252);
+  border-width: 1px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-title2 {
+  color: var(--neutral-600, #525252);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+
+
+.dashboard-container {
+    display:flex;
+}
+
+.dashboard {
+  flex: 1;
+  padding: 200px;
+  border: 1px solid #ccc;
+}
+
+
+
+.dashboard,
+.dashboard * {
+  box-sizing: border-box;
+}
+.dashboard {
+  background: var(--neutral-100, #f5f5f5);
+  width: 1440px;
+  height: 2307px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-1 {
+  background: var(--neutral-900, #171717);
+  width: 1440px;
+  height: 55px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 30px;
+  top: 17px;
+}
+.frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-home-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.home {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-list-ul {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.contents {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-42 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-list-ui-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.categories {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-cog {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.settings {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-6 {
+  background: var(--white, #ffffff);
+  border-radius: 36px;
+  padding: 3px 15px 3px 3px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1227px;
+  top: 9px;
+}
+.ellipse-1 {
+  background: linear-gradient(to left, #d9d9d9, #d9d9d9);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+.smail-hsan-b-lb-l {
+  color: var(--gray-900, #111827);
+  text-align: left;
+  font: 400 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-7 {
+  background-color: var(--neutral-800, #262626);
+  width: 260px;
+  height: 2252px;
+  position: absolute;
+  left: 0px;
+  top: 55px;
+  overflow: hidden;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 260px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-19 {
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-18 {
+  background: var(--neutral-200, #e5e5e5);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-plus {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.new-item {
+  color: var(--neutral-900, #171717);
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-9 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.darhboard {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  position: relative;
+}
+.rectangle-34 {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2px;
+  width: 4.5px;
+  height: 4.5px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+.rectangle-35 {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2px;
+  width: 4.5px;
+  height: 4.5px;
+  position: absolute;
+  left: 3px;
+  top: 10.5px;
+}
+.rectangle-36 {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2px;
+  width: 4.5px;
+  height: 4.5px;
+  position: absolute;
+  left: 10.5px;
+  top: 10.5px;
+}
+.rectangle-37 {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: var(--white, #ffffff);
+  border-width: 2px;
+  width: 4.5px;
+  height: 4.5px;
+  position: absolute;
+  left: 10.5px;
+  top: 3px;
+}
+.dashboard2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-up {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-12 {
+  padding: 0px 0px 15px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.commarce {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.analytics {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.cyrpto {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.helpdesk {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.monitoring {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.fitnes {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-10 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.application {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-11 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.elements {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-132 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.forms {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-14 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.plugins {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-15 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.expand-down5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-16 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.datagrid {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-17 {
+  border-style: solid;
+  border-color: var(--neutral-900, #171717);
+  border-width: 1px 0px 0px 0px;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.settings2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-20 {
+  background: var(--white, #ffffff);
+  width: 1180px;
+  height: 77px;
+  position: absolute;
+  left: 260px;
+  top: 55px;
+  overflow: hidden;
+}
+.frame-21 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 30px;
+  top: 22px;
+}
+.add-new-post {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-43 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-plus2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.add-content {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.u-cog2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.settings3 {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-22 {
+  background: var(--white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  position: absolute;
+  left: 800px;
+  top: 16px;
+}
+.search-content {
+  color: #000000;
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.u-search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-32 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 290px;
+  top: 162px;
+}
+.frame-26 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1120px;
+  position: relative;
+}
+.info-box {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.u-shopping-bag {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-23 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.total-sales {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 12px "Poppins", sans-serif;
+  position: relative;
+}
+._320-k {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: relative;
+}
+.u-shop {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-users-alt {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-list-ui-alt2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-27 {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1120px;
+  position: relative;
+}
+.form-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-title2 {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 600 22px "Poppins", sans-serif;
+  position: relative;
+}
+.sed-tortor-sed-velit-ridiculus-ipsum-pharetra-lacus-odio-gravida-augue-enim {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 16px "Poppins", sans-serif;
+  position: relative;
+}
+.alert-box {
+  background: var(--red-50, #fef2f2);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--red-400, #f87171);
+  border-width: 1px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-info-circle {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.senectus-malesuada-suspendisse-bibendum-elit-amet-vitae {
+  color: var(--red-900, #7f1d1d);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.form-table {
+    background: var(--neutral-300, #D4D4D4); 
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.frame-66 {
+  background: var(--white, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.frame-64 {
+  background: var(--neutral-300, #d4d4d4);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.table-title {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-65 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.etiam-purus-in {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-662 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.duis-eget-habitant {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-67 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.aliquam-velit-lacus {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-68 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.fermentum-scelerisque-ultricies {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-69 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.integer-semper-pellentesque {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-70 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.parturient-at-id {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-71 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.amet-pretium-eget {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-72 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.risus-consequat-sollicitudin {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-73 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-672 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--neutral-200, #e5e5e5);
+  border-width: 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.curabitur-donec-duis {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.at-amet-odio {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.pellentesque-egestas-placerat {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.morbi-sagittis-nulla {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.neque-turpis-enim {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.sem-neque-mattis {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.in-ipsum-volutpat {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.adipiscing-odio-nulla {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-682 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--neutral-200, #e5e5e5);
+  border-width: 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.morbi-pharetra-accumsan {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.commodo-eget-scelerisque {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.tortor-habitant-sit {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.quam-semper-quis {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.egestas-non-sociis {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.pellentesque-facilisis-massa {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.ut-feugiat-egestas {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.pharetra-id-sit {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-692 {
+  background: var(--white, #ffffff);
+  border-style: solid;
+  border-color: var(--neutral-200, #e5e5e5);
+  border-width: 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-652 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-mini {
+  background: var(--blue-700, #1d4ed8);
+  border-radius: 3px;
+  padding: 3px 5px 3px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button-title {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 400 12px "Poppins", sans-serif;
+  position: relative;
+}
+.button-mini2 {
+  background: var(--amber-600, #d97706);
+  border-radius: 3px;
+  padding: 3px 5px 3px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-732 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-74 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-75 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-76 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-77 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-78 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-79 {
+  background: var(--neutral-100, #f5f5f5);
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save16 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-80 {
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-save17 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.u-save18 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.expand-left-double {
+  opacity: 0.4000000059604645;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button-page {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-400, #a3a3a3);
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+._1 {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 500 14px "Poppins", sans-serif;
+  position: relative;
+}
+.button-page2 {
+  background: var(--blue-600, #2563eb);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+._12 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 14px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-right-double {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-322 {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1120px;
+  position: relative;
+}
+.frame-88 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-lang {
+  background: var(--amber-200, #fde68a);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--amber-600, #d97706);
+  border-width: 1px;
+  padding: 5px 10px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.flag {
+  border-radius: 3px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.country {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 400 16px "Poppins", sans-serif;
+  position: relative;
+}
+.button-lang2 {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 5px 10px 5px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.flag2 {
+  border-radius: 3px;
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label-title {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 14px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-28 {
+  background: var(--white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.placeholder-content {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 16px "Poppins", sans-serif;
+  position: relative;
+}
+.frame-29 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-select-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.frame-282 {
+  background: var(--white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.chose {
+  color: var(--neutral-800, #262626);
+  text-align: left;
+  font: 300 16px "Poppins", sans-serif;
+  position: relative;
+}
+.expand-down8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.form-input2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.frame-30 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.form-textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-283 {
+  background: var(--white, #ffffff);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: var(--neutral-300, #d4d4d4);
+  border-width: 1px;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 165px;
+  position: relative;
+}
+.frame-31 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 1120px;
+  position: relative;
+}
+.frame-284 {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.form-select-box2 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.expand-down9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-292 {
+  background: var(--white, #ffffff);
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 310px;
+  position: relative;
+}
+.expand-down10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.button {
+    
+  background: var(--blue-600, #2563eb);
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button-title2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: 500 16px "Poppins", sans-serif;
+  position: relative;
+}
+
